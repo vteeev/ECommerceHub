@@ -1,0 +1,17 @@
+# Wszystkie pliki Python
+*.py linguist-language=Python
+
+# Wszystkie pliki TypeScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Ignorowanie plików konfiguracyjnych, które nie powinny wpływać na statystyki
+*.json linguist-vendored
+*.lock linguist-vendored
+node_modules/** linguist-vendored
+*.yml linguist-vendored
+*.yaml linguist-vendored
+
+# Ignorowanie dokumentacji
+*.md linguist-documentation
+docs/** linguist-documentation
